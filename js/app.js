@@ -56,7 +56,8 @@ $(document).ready(function(){
   collapse();
   validacionForm();
   activeLi();
-
+  jsrj();
+  
   $.fn.responsiveTabs = function() {
     return this.each(function() {
       var el = $(this),
