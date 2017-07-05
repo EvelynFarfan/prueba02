@@ -51,3 +51,6 @@ protractor.conf.js
 README.md
 tsconfig.json
 tslint.json
+
+# ignore a file type
+*.json
