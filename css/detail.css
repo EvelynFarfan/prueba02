@@ -1,0 +1,118 @@
+.titleFamily{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold
+}
+.titleFamilyPrincipal{
+  font-size: 30px;
+}
+.back{
+  margin-top: 2%;
+}
+.iconArrowBack{
+  color: #33cccc;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 1%;
+}
+.textArrowBack{
+  color: #838383;
+  text-transform: uppercase;
+}
+.detail{
+  margin:  25px 0 0 0;
+}
+.detail .detailNameUser{
+  background: #fff;
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #c7c7c7;
+}
+.imgDetail{
+   height: 50px;
+}
+.contentNameDetail{
+  margin-top: 13px;
+}
+.nameDetail{
+  font-size: 20px;
+  font-weight: bold;
+}
+.iconGenerDetail{
+  margin-top: 15px;
+}
+.menuDetailFamily{
+  margin: 20px 0 0 0;
+}
+.menuDetailFamily ul.nav-tabs li.activado{
+  color: #33cccc;
+  border-bottom: 2px solid #33cccc;
+}
+.menuDetailFamily ul.nav-tabs li.activado .textMenuDetailFamily{
+  color: #33cccc;
+}
+.menuDetailFamily ul.nav-tabs li:hover{
+  border-bottom: 2px solid #33cccc;
+}
+.nav-tabs>li>a:hover {
+  border-color: rgba(0,0,0,0); 
+}
+.textMenuDetailFamily{
+  color: gray;
+}
+.menuDetailFamily ul.nav-tabs li:hover .textMenuDetailFamily{
+  color: #33cccc;
+}
+.infoDetail{
+  margin: 10px 0 0 0;
+}
+.responsive-tabs {
+  }
+  .responsive-tabs dt {
+    padding: 0.5em;
+    border-top: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: 100;
+    }
+  .responsive-tabs dt:first-child {
+    border-top: 0;
+    }
+  .responsive-tabs .active {
+      border-bottom: 2px solid #33cccc;
+      color: #33cccc;
+    }
+  .responsive-tabs .active + dd {
+    display: block;
+    }
+  .responsive-tabs dd {
+    display: none;
+    padding: 0.5em;
+    }
+
+.responsive-tabs-placeholder {
+  display: none;
+  }
+@media screen and (max-width: 850px){
+  .infoDetail{
+    margin-left: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  
+  .responsive-tabs {
+    }
+    .responsive-tabs dt {
+      float: left;
+      border-top: 0;
+      }
+    .responsive-tabs .active + dd {
+      display: none;
+      }
+ 
+  .responsive-tabs-placeholder {
+    clear: both;
+    display: block;
+    padding: 1em;
+    border-top: 1px solid #ccc;
+    }
+}
