@@ -43,10 +43,10 @@ Thumbs.db
 
 /src
 /e2e
-/.angular-cli.json
-/.editorconfig
+.angular-cli.json
+.editorconfig
 karma.conf.js
-/package.json
+package.json
 protractor.conf.js
 README.md
 tsconfig.json
